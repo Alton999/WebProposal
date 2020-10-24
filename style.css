@@ -176,6 +176,9 @@ blockquote {
 	body {
 		display: block;
 	}
+  main {
+    margin: 1em;
+  }
 	nav {
 		display: none;
 	}
