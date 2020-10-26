@@ -103,6 +103,7 @@ nav ul li a:hover {
 main {
 	grid-area: main;
 	padding-bottom: 40rem;
+	margin-top: 1em;
 }
 
 section {
@@ -141,6 +142,24 @@ figure img {
 	max-width: min-content;
 	margin: 0 auto;
 }
+.list-empty > li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+.flex-container {
+	display: inline-flex;
+}
+.navigation-list > li {
+	margin-bottom: 10px;
+}
+.flex-container > img {
+	margin-left: 30px;
+	margin-bottom: 1em;
+}
+.reference-images {
+	max-width: 450px;
+	max-height: 400px;
+}
 
 figure iframe {
 	display: block;
@@ -149,26 +168,6 @@ figure iframe {
 
 figure figcaption {
 	text-align: center;
-}
-
-.flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	background-color: DodgerBlue;
-}
-.container1 {
-	background-color: #f1f1f1;
-	margin: 10px;
-	padding: 20px;
-	font-size: 30px;
-}
-.container2 {
-	flex-grow: 3;
-	align-self: flex-end;
-	background-color: #f1f1f1;
-	margin: 10px;
-	padding: 20px;
-	font-size: 30px;
 }
 
 blockquote {
