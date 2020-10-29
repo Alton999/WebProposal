@@ -146,6 +146,9 @@ figure img {
 	list-style-type: none;
 	padding-bottom: 10px;
 }
+.list-styles > li {
+	padding-bottom: 10px;
+}
 .flex-container {
 	display: inline-flex;
 }
